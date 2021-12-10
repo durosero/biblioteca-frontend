@@ -15,5 +15,5 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Configuracion URL_API
+Para configurar el la url de la API modificar la variable `axios.defaults.baseURL` que se encuentra en el archivo `main.js` en la carpeta raiz del proyecto, por defecto se esta usando: `http://localhost:3000/api`, tener en cuenta que la API siempre usa un path adicional despues del dominio o host (`/api`)
